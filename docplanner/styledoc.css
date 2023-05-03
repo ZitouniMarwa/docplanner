@@ -1,0 +1,99 @@
+ .logo-docplanner {
+    width: 268px;
+    height: 33px;
+}
+.main-menu .is-current, .main-menu .is-current a {
+    color: #00b39b; 
+}
+.main-menu a {
+    color: #ababab;
+    display: block;
+    text-decoration: none;
+    padding: 0 .6em;
+}
+.lead__logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+.lead h1{
+    text-align: center;
+    color: #00b39b;
+    font-size: 2.150rem;
+}
+h1 {
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    margin: 1em 0;
+    color: white;
+}
+h2{
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    margin: 1em 0;
+    color: white;  
+}
+.lead p {
+    margin: .8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.grid {
+    margin: 0 05px;
+}
+.col-2 {
+    width: 50%;
+    float: left;
+    min-height: 1px;
+    padding: 10px;
+}
+.flex-main{
+    display: flex;
+    justify-content: space-between;
+}
+.main-menu{
+    display: flex;
+    list-style-type: none;
+}
+
+.section {
+    width: 100%
+}
+
+.services__item{
+    zoom:1;max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+    content: "";
+    display: table;
+    padding: 1.375em 1.25em 0;
+}
+.services__item--patient{
+    background: #00ccb1;
+    width: 50px;
+}
+.services__item--doctor{
+    background: #04acee;  
+    width: 50px; 
+}
+.services__item--clinic{
+    background: #022330;  
+    width: 50px; 
+}
+.col-3 section__patient {
+    padding: 1.375em 1.25em 0;
+}
+.services__item{
+    display: flex;
+}
