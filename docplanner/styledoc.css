@@ -14,7 +14,7 @@
 .lead__logo {
     display: block;
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 1000%;
     height: auto;
 }
 .lead h1{
@@ -71,7 +71,7 @@ p {
 }
 
 .services__item{
-    zoom:1;max-width: 1015px;
+    zoom:1; max-width: 1015px;
     padding: 0 20px;
     margin: 0 auto;
     position: relative;
@@ -81,19 +81,33 @@ p {
 }
 .services__item--patient{
     background: #00ccb1;
-    width: 50px;
+    width: 95%;
+   
+   
 }
 .services__item--doctor{
     background: #04acee;  
-    width: 50px; 
+    width: 95%;
 }
 .services__item--clinic{
     background: #022330;  
-    width: 50px; 
+    width: 95%;
 }
 .col-3 section__patient {
     padding: 1.375em 1.25em 0;
 }
-.services__item{
+.section-item{
     display: flex;
+    
+}
+.style-select select {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 3.5em 0 1.5em;
+    height: 40px;
+    -webkit-appearance: none;
+    text-transform: uppercase;
+    outline: 0
 }
